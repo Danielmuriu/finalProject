@@ -10,13 +10,10 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <SectionWrapper id="testimonials">
-      <h3 className="text-3xl font-bold mb-12 text-center">What Our Customers Say</h3>
-      <div className="grid lg:grid-cols-3 gap-10">
-        {testimonials.map((t, i) => (
-          <Card key={i} description={`"${t.message}"`} title={t.name} />
-        ))}
-      </div>
+    <SectionWrapper id="testimonials" className="grid lg:grid-cols-3 gap-10">
+      {testimonials.map((t, i) => (
+        <Card key={i} title={t.name} description={`"${t.message}"`} />
+      ))}
     </SectionWrapper>
   );
 };

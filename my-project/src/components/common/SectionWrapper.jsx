@@ -1,9 +1,11 @@
 import React from "react";
 
-const SectionWrapper = ({ children, className }) => {
+const SectionWrapper = ({ id, className = "", children }) => {
   return (
-    <section className={`py-20 px-6 max-w-7xl mx-auto ${className}`}>
-      {children}
+    <section id={id} className="w-full py-20 px-6 lg:px-20">
+      <div className={`max-w-7xl mx-auto ${className}`}>
+        {children}
+      </div>
     </section>
   );
 };
