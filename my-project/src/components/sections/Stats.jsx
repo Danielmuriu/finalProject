@@ -3,7 +3,7 @@ import SectionWrapper from "../common/SectionWrapper";
 
 const stats = [
   { label: "Gifts Delivered", value: "10K+" },
-  { label: "Happy Customers", value: "5K+" },
+  { label: "Happy Customers", value: "10K+" },
   { label: "Cities Reached", value: "12" },
   { label: "Years Experience", value: "7+" },
 ];
