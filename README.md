@@ -90,48 +90,44 @@ Please add real credits according to your sources, e.g.:
 
 ---
 
-## Installation & Setup
+## 🔧 Installation & Setup
+
+### 1️⃣ Clone the Project
 ```bash
-git clone https://github.com/Danielmuriu/finalProject
-cd finalProject
+git clone https://github.com/elizabethwairimu989-png/projectFinal
+cd projectFinal
+
+### 2️⃣ Install Dependencies
+```bash
 npm install
+
+### 3️⃣ Start Development Server
+```bash
 npm run dev
 
-## **Technologies Used**
-- **React 18+**
-- **Tailwind CSS 3+**
-- **Vite** (for dev server + build optimization)
-- **Lucide Icons**
-- **React Router** (if implemented)
+### 4️⃣ Create Production Build
+```bash
+npm run build
+
+### Preview Production Build
+```bash
+npm run preview
 
 ---
 
-## **Challenges & Solutions**
+## 🧩 Challenges & Solutions
 
-### **1. Responsive scaling of hero images**
-**Challenge:**  
-Large images were becoming distorted or cropped poorly on smaller screens.
+### 1️⃣ Render Deployment Build Failure
+- **Cause:** Incorrect Vite commands  
+- **Solution:** Updated build command + fixed environment settings  
 
-**Solution:**  
-Applied `object-cover`, `md:object-center`, and custom padding adjustments for each breakpoint to maintain proper image focus and aspect ratio.
+### 2️⃣ Layout Breaking on Mobile
+- **Cause:** Mixed custom CSS and Tailwind utilities  
+- **Fix:** Transitioned to 100% Tailwind spacing  
 
----
-
-### **2. Component repetition and clutter**
-**Challenge:**  
-Too many repeated UI structures caused bloated code and made maintenance difficult.
-
-**Solution:**  
-Created reusable components such as **`<SectionWrapper>`** and **`<Card>`** to standardize layouts, reduce repetition, and keep the codebase modular.
-
----
-
-### **3. Performance drops due to large UI elements**
-**Challenge:**  
-Initial load times were slow on mobile due to heavy images and unnecessary DOM elements.
-
-**Solution:**  
-Enabled **lazy-loading** for non-critical images, removed redundant HTML elements, and optimized Tailwind utility classes to reduce CSS output and DOM weight.
+### 3️⃣ Component Import Errors
+- **Cause:** Refactor changed folder paths  
+- **Fix:** Organized folder structure + unified import patterns
 
 ---
 
