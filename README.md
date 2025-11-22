@@ -1,5 +1,4 @@
- https://finalproject-6cfi.onrender.com/
- # Gifts Paradise – Final Project
+# Gifts Paradise – Final Project
 
 ## Live Demo
 https://finalproject-6cfi.onrender.com/
