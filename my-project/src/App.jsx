@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/layout/Header";
+import Cart from "./components/layout/Cart";
 import Hero from "./components/sections/Hero";
 import Features from "./components/sections/Features";
 import Stats from "./components/sections/Stats";
@@ -8,14 +9,17 @@ import Testimonials from "./components/sections/Testimonials";
 import About from "./components/sections/About";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/layout/Footer";
+import Shop from "./components/sections/Shop";
 
 function App() {
   return (
     <>
       <Header />
+      <Cart />
       <Hero />
       <Features />
       <Stats />
+      <Shop />
       <Products />
       <Testimonials />
       <About />

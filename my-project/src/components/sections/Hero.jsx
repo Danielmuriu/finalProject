@@ -1,7 +1,6 @@
 import React from "react";
 import SectionWrapper from "../common/SectionWrapper";
 import Button from "../common/Button";
-
 const Hero = () => {
   return (
     <div
@@ -19,6 +18,9 @@ const Hero = () => {
         <p className="text-lg mb-8 max-w-2xl mx-auto">
           Surprise your loved ones with elegant, curated gifts for any occasion.
         </p>
+        <div className="mb-6">
+          <span className="inline-block bg-white/10 text-white px-3 py-1 rounded-full text-sm">Till (Buy Goods): <strong className="ml-2">3106430</strong></span>
+        </div>
         <Button 
           variant="primary" 
           onClick={() => document.getElementById('products').scrollIntoView({ behavior: 'smooth' })}

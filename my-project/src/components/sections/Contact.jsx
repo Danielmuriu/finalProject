@@ -17,8 +17,8 @@ const Contact = () => {
         <div className="text-center border-t pt-8">
           <h4 className="text-xl font-bold mb-6">Reach us through</h4>
           <div className="flex justify-center gap-6">
-            <a href="https://wa.me/254" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-700 font-medium">WhatsApp</a>
-            <a href="mailto:info@purpink.com" className="text-pink-600 hover:text-pink-700 font-medium">Email</a>
+            <a href="https://wa.me/254742227494" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-700 font-medium">WhatsApp</a>
+            <a href="mailto:giftsparadisekenya@gmail.com" className="text-pink-600 hover:text-pink-700 font-medium">Email</a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-700 font-medium">Instagram</a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-700 font-medium">Facebook</a>
           </div>

@@ -15,10 +15,10 @@ const About = () => {
           Looking for unique and spectacular gifts that create a lasting impression? At Purpink, we have thousands of gift items to celebrate every moment, whether it's for him or her, from anniversaries to graduations and weddings.
         </p>
         <p className="text-lg mb-4">
-          Purpink is also Kenya's leading online flower delivery service, known for excellent packaging by our expert florists—the best in the country.
+          Gifts paradise is also Kenya's leading online flower delivery service, known for excellent packaging by our expert florists—the best in the country.
         </p>
         <p className="text-lg">
-          With Purpink, enjoy fast same-day delivery in Nairobi and next-day delivery all over Kenya. Our flexible and safe payment options make it easy to turn those special moments into cherished memories.
+          With gifts paradise, enjoy fast same-day delivery in Nairobi and next-day delivery all over Kenya. Our flexible and safe payment options make it easy to turn those special moments into cherished memories.
         </p>
       </div>
     </SectionWrapper>
